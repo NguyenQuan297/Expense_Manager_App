@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+out/
+src/
+lib/
+src/main/resources/expenses.db
+*.class
