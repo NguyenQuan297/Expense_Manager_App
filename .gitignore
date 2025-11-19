@@ -1,7 +1,37 @@
+# ==========================
+# Maven & Java build output
+# ==========================
+target/
+out/
+*.class
+
+# ==========================
+# Local database (SQLite)
+# ==========================
+*.db
+
+# ==========================
+# IDE files
+# ==========================
 .idea/
 .vscode/
-out/
-src/
-lib/
-src/main/resources/expenses.db
-*.class
+*.iml
+
+# ==========================
+# OS junk files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Allow source code
+# (DO NOT ignore src/)
+# ==========================
+
+# DO NOT REMOVE THIS — ensure src/ is tracked
+!src/
